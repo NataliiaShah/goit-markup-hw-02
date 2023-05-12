@@ -1,0 +1,200 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.header-logo-link {
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height, or 117% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        /* IRIS */
+        color: #4D5AE5;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+.header-logo-color {
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 21px;
+        /* identical to box height, or 117% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+
+.header-link {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+        letter-spacing: 0.02em;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+.header-address-link {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+        color: #434455;
+}
+
+
+.main-section { background-color: #2E2F42;}
+.main-section-title {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        /* or 107% */
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        /* WHITE */
+        color: #FFFFFF;
+}
+
+.main-section-button {
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+    
+        /* WHITE */
+        color: #FFFFFF;
+        cursor: pointer;
+}
+
+.main-content-titel {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        /* identical to box height, or 120% */
+        letter-spacing: 0.02em;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+
+.main-content-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* or 150% */
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+        color: #434455;
+}
+
+.main-pictures-text {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        /* identical to box height, or 111% */
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+
+.main-team-titel {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        /* identical to box height, or 111% */
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+
+.main-team-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        /* identical to box height, or 120% */
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+
+.main-team-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+        color: #434455;
+}
+
+.footer { background-color: #2E2F42;}
+.footer-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* or 150% */
+        letter-spacing: 0.02em;
+    
+        /* CLOUD */
+        color: #F4F4FD;
+}
+
+.footer-logo-link {
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        /* identical to box height, or 117% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        /* IRIS */
+        color: #4D5AE5;
+}
+
+.footer-logo-color {
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        /* identical to box height, or 117% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        /* CLOUD */
+        color: #F4F4FD;
+}

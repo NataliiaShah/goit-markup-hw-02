@@ -1,0 +1,129 @@
+body{
+    font-family: "Open Sans", sans-serif;
+}
+.main-section-button {
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+    
+        /* IRIS */
+        color: #4D5AE5;
+        cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+.header-address-link {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+        color: #434455;
+}
+.list {
+    list-style: none;
+}
+
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
+
+    /* NAVY BLUE */
+    color: #2E2F42;
+}
+.header-logo-link {
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        /* identical to box height, or 117% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        /* IRIS */
+        color: #4D5AE5;
+}
+.header-logo-color {
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        /* identical to box height, or 117% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+.main-photo-name {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        /* identical to box height, or 120% */
+        letter-spacing: 0.02em;
+    
+        /* NAVY BLUE */
+        color: #2E2F42;
+}
+.main-photo-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* identical to box height, or 150% */
+        letter-spacing: 0.02em;
+    
+        /* SLATE */
+        color: #434455;
+}
+.footer-logo-link {
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        /* identical to box height, or 117% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        /* IRIS */
+        color: #4D5AE5;
+}
+.footer-logo-color {
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.16;
+        /* identical to box height, or 117% */
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        /* CLOUD */
+        color: #F4F4FD;
+}
+.footer-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        /* or 150% */
+        letter-spacing: 0.02em;
+    
+        /* CLOUD */
+        color: #F4F4FD;
+}
+.footer { background-color:#2E2F42;}
