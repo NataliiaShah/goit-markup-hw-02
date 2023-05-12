@@ -1,11 +1,11 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .header-logo-link {
     font-weight: 800;
         font-size: 18px;
-        line-height: 21px;
+        line-height: 1.17;
         /* identical to box height, or 117% */
         display: flex;
         align-items: center;
@@ -26,7 +26,7 @@ body {
 .header-logo-color {
     font-weight: 800;
         font-size: 18px;
-        line-height: 21px;
+        line-height: 1.17;
         /* identical to box height, or 117% */
         display: flex;
         align-items: center;
@@ -50,7 +50,7 @@ body {
 .header-address-link {
     font-weight: 400;
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.5;
         /* identical to box height, or 150% */
         letter-spacing: 0.02em;
     
@@ -174,7 +174,7 @@ body {
 .footer-logo-link {
     font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         /* identical to box height, or 117% */
         display: flex;
         align-items: center;
@@ -188,7 +188,7 @@ body {
 .footer-logo-color {
     font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         /* identical to box height, or 117% */
         display: flex;
         align-items: center;

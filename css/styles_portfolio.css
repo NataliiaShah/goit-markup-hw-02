@@ -1,5 +1,5 @@
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 .main-section-button {
         font-family: inherit;
@@ -47,7 +47,7 @@ body{
 .header-logo-link {
     font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         /* identical to box height, or 117% */
         display: flex;
         align-items: center;
@@ -60,7 +60,7 @@ body{
 .header-logo-color {
     font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         /* identical to box height, or 117% */
         display: flex;
         align-items: center;
@@ -91,9 +91,10 @@ body{
         color: #434455;
 }
 .footer-logo-link {
-    font-weight: 800;
+        font-family: 'Raleway';
+        font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         /* identical to box height, or 117% */
         display: flex;
         align-items: center;
@@ -104,9 +105,10 @@ body{
         color: #4D5AE5;
 }
 .footer-logo-color {
-    font-weight: 800;
+        font-family: 'Raleway';
+        font-weight: 800;
         font-size: 18px;
-        line-height: 1.16;
+        line-height: 1.17;
         /* identical to box height, or 117% */
         display: flex;
         align-items: center;
@@ -117,7 +119,7 @@ body{
         color: #F4F4FD;
 }
 .footer-text {
-    font-weight: 400;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         /* or 150% */
