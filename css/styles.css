@@ -1,5 +1,12 @@
+:root {
+    --titel-color:#2E2F42;
+}
+
 body {
     font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+    
 }
 
 .header-logo-link {
@@ -56,6 +63,7 @@ body {
     color: #404bbf;
 }
 .header-address-link {
+        font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -104,9 +112,11 @@ body {
 }
 .main-section-button :hover {
     color: #404bbf;
+    background-color: #404BBF;
 }
 .main-section-button :focus {
     color: #404bbf;
+    background-color:  #404BBF;
 }
 .main-content-titel {
         font-weight: 500;
@@ -116,7 +126,7 @@ body {
         letter-spacing: 0.02em;
     
         /* NAVY BLUE */
-        color: #2E2F42;
+        color: var(--titel-color);
 }
 .main-content-name {
        font-weight: 500;
@@ -126,7 +136,7 @@ body {
        letter-spacing: 0.02em;
 
 /* NAVY BLUE */
-color: #2E2F42;
+color: var(--titel-color);
 
 }
 
@@ -151,13 +161,16 @@ color: #2E2F42;
         text-transform: capitalize;
     
         /* NAVY BLUE */
-        color: #2E2F42;
+        color: var(--titel-color);
 }
 
 .main-content-team {
     background-color: #F4F4FD
 }
 
+.main-team-list {
+    background-color: #FFFFFF;
+}
 
 .main-team-titel {
     font-weight: 700;
@@ -169,7 +182,7 @@ color: #2E2F42;
         text-transform: capitalize;
     
         /* NAVY BLUE */
-        color: #2E2F42;
+        color: var(--titel-color);
         
 }
 
@@ -182,7 +195,7 @@ color: #2E2F42;
         letter-spacing: 0.02em;
     
         /* NAVY BLUE */
-        color: #2E2F42;
+        color: var(--titel-color);
        
 }
 
