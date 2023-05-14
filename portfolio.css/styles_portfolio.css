@@ -21,11 +21,13 @@ body{
 }
 
 .main-section-button:hover {
-    color:  #404BBF;
+    color:  #FFFFFF;
+    background-color: #404BBF;
 }
 
 .main-section-button:focus {
-color:  #404BBF;
+color:  #FFFFFF;
+background-color: #404BBF;
 }
 
 .link {
