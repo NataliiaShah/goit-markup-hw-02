@@ -63,16 +63,16 @@ body {
     color: #404bbf;
 }
 .header-address-link {
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        /* identical to box height, or 150% */
-        letter-spacing: 0.02em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
     
-        /* SLATE */
-        color: #434455;
+    /* SLATE */
+    color: #434455;
 }
 .header-address-link:hover {
     color: #404bbf;
@@ -110,13 +110,11 @@ body {
         cursor: pointer;
         background-color: #4D5AE5
 }
-.main-section-button :hover {
-    color: #404bbf;
-    background-color: #404BBF;
+.main-section-button:hover {
+    background-color:#404BBF;
 }
-.main-section-button :focus {
-    color: #404bbf;
-    background-color:  #404BBF;
+.main-section-button:focus {
+    background-color:#404BBF;
 }
 .main-content-titel {
         font-weight: 500;
@@ -169,6 +167,9 @@ color: var(--titel-color);
 }
 
 .main-team-list {
+   background-color: #F4F4FD
+}
+.main-team-item {
     background-color: #FFFFFF;
 }
 
@@ -183,6 +184,7 @@ color: var(--titel-color);
     
         /* NAVY BLUE */
         color: var(--titel-color);
+    
         
 }
 
@@ -196,6 +198,7 @@ color: var(--titel-color);
     
         /* NAVY BLUE */
         color: var(--titel-color);
+        
        
 }
 
@@ -209,6 +212,7 @@ color: var(--titel-color);
     
         /* SLATE */
         color: #434455;
+        
         
 }
 
