@@ -1,6 +1,7 @@
 body{
     font-family: "Roboto", sans-serif;
 }
+
 .main-section-button {
         font-family: inherit;
         font-weight: 500;
@@ -15,21 +16,43 @@ body{
         /* IRIS */
         color: #4D5AE5;
         cursor: pointer;
+        background-color: #F4F4FD
+}
+
+.main-section-button:hover {
+    color:  #404BBF;
+}
+
+.main-section-button:focus {
+color:  #404BBF;
 }
 
 .link {
     text-decoration: none;
 }
+
 .header-address-link {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        /* identical to box height, or 150% */
-        letter-spacing: 0.02em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    /* identical to box height, or 150% */
+    letter-spacing: 0.02em;
     
-        /* SLATE */
-        color: #434455;
+    /* SLATE */
+    color: #434455;
+
 }
+
+.header-address-link:hover {
+    color: #404bbf;
+}
+
+.header-address-link:focus {
+    color: #404bbf;
+}
+
 .list {
     list-style: none;
 }
@@ -44,8 +67,18 @@ body{
     /* NAVY BLUE */
     color: #2E2F42;
 }
+
+.header-link:hover {
+    color: #404bbf;
+}
+
+.header-link:focus {
+    color: #404bbf;
+}
+
 .header-logo-link {
-    font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         /* identical to box height, or 117% */
@@ -57,8 +90,10 @@ body{
         /* IRIS */
         color: #4D5AE5;
 }
+
 .header-logo-color {
-    font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         /* identical to box height, or 117% */
@@ -70,6 +105,7 @@ body{
         /* NAVY BLUE */
         color: #2E2F42;
 }
+
 .main-photo-name {
     font-weight: 500;
         font-size: 20px;
@@ -80,6 +116,7 @@ body{
         /* NAVY BLUE */
         color: #2E2F42;
 }
+
 .main-photo-text {
     font-weight: 400;
         font-size: 16px;
@@ -90,8 +127,9 @@ body{
         /* SLATE */
         color: #434455;
 }
+
 .footer-logo-link {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -104,8 +142,9 @@ body{
         /* IRIS */
         color: #4D5AE5;
 }
+
 .footer-logo-color {
-        font-family: 'Raleway';
+        font-family: 'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -118,6 +157,7 @@ body{
         /* CLOUD */
         color: #F4F4FD;
 }
+
 .footer-text {
         font-weight: 400;
         font-size: 16px;
@@ -128,4 +168,5 @@ body{
         /* CLOUD */
         color: #F4F4FD;
 }
+
 .footer { background-color:#2E2F42;}

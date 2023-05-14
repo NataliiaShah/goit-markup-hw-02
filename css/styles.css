@@ -3,17 +3,18 @@ body {
 }
 
 .header-logo-link {
-    font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        /* identical to box height, or 117% */
-        display: flex;
-        align-items: center;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-    
-        /* IRIS */
-        color: #4D5AE5;
+            font-family: 'Raleway', sans-serif;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 1.17;
+            /* identical to box height, or 117% */
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+        
+            /* IRIS */
+            color: #4D5AE5;
 }
 
 .list {
@@ -24,7 +25,8 @@ body {
     text-decoration: none;
 }
 .header-logo-color {
-    font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         /* identical to box height, or 117% */
@@ -47,8 +49,15 @@ body {
         /* NAVY BLUE */
         color: #2E2F42;
 }
+.header-link:hover {
+    color: #404bbf;
+}
+.header-link:focus {
+    color: #404bbf;
+}
 .header-address-link {
-    font-weight: 400;
+        font-style: normal;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         /* identical to box height, or 150% */
@@ -56,6 +65,12 @@ body {
     
         /* SLATE */
         color: #434455;
+}
+.header-address-link:hover {
+    color: #404bbf;
+}
+.header-address-link:focus {
+    color: #404bbf;
 }
 
 
@@ -85,10 +100,16 @@ body {
         /* WHITE */
         color: #FFFFFF;
         cursor: pointer;
+        background-color: #4D5AE5
 }
-
+.main-section-button :hover {
+    color: #404bbf;
+}
+.main-section-button :focus {
+    color: #404bbf;
+}
 .main-content-titel {
-    font-weight: 500;
+        font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         /* identical to box height, or 120% */
@@ -96,6 +117,17 @@ body {
     
         /* NAVY BLUE */
         color: #2E2F42;
+}
+.main-content-name {
+       font-weight: 500;
+       font-size: 20px;
+       line-height: 1.2;
+       /* identical to box height, or 120% */
+       letter-spacing: 0.02em;
+
+/* NAVY BLUE */
+color: #2E2F42;
+
 }
 
 .main-content-text {
@@ -122,6 +154,11 @@ body {
         color: #2E2F42;
 }
 
+.main-content-team {
+    background-color: #F4F4FD
+}
+
+
 .main-team-titel {
     font-weight: 700;
         font-size: 36px;
@@ -133,6 +170,7 @@ body {
     
         /* NAVY BLUE */
         color: #2E2F42;
+        
 }
 
 .main-team-name {
@@ -145,6 +183,7 @@ body {
     
         /* NAVY BLUE */
         color: #2E2F42;
+       
 }
 
 .main-team-text {
@@ -157,6 +196,7 @@ body {
     
         /* SLATE */
         color: #434455;
+        
 }
 
 .footer { background-color: #2E2F42;}
@@ -172,7 +212,8 @@ body {
 }
 
 .footer-logo-link {
-    font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         /* identical to box height, or 117% */
@@ -186,7 +227,8 @@ body {
 }
 
 .footer-logo-color {
-    font-weight: 800;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
         /* identical to box height, or 117% */
