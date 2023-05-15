@@ -62,6 +62,11 @@ body {
 .header-link:focus {
     color: #404bbf;
 }
+
+.header-address {
+    font-style: normal
+}
+
 .header-address-link {
     font-family: 'Roboto';
     font-style: normal;
@@ -184,7 +189,6 @@ color: var(--titel-color);
     
         /* NAVY BLUE */
         color: var(--titel-color);
-    
         
 }
 
@@ -212,7 +216,6 @@ color: var(--titel-color);
     
         /* SLATE */
         color: #434455;
-        
         
 }
 
@@ -291,6 +294,10 @@ background-color: #404BBF;
 
 .link {
     text-decoration: none;
+}
+
+.header-address {
+    font-style: normal
 }
 
 .header-address-link {
